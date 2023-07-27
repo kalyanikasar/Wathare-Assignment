@@ -1,0 +1,8 @@
+> use user
+> db.createCollection("Language")
+> db.Language.insert({id:1, name:'PHP', percentage:25})
+WriteResult({ "nInserted" : 1 })
+> db.Language.insert({id:2, name:'Java', percentage:75})
+WriteResult({ "nInserted" : 1 })
+> db.Language.insert({id:3, name:'JavaScript', percentage:25})
+WriteResult({ "nInserted" : 1 })
